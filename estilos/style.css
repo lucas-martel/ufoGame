@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import './assets.css';
+@import './layout.css';
+@import './bomba.css';
+@import './estilo.css';
+@import './explosaoBomba.css';
+@import './explosaoPlayer.css';
+@import './player.css';
+@import './form.css';
+@import './texto.css';     
+@import './colisores.css';
+@import './tabela.css';
+
+* {
+    color: aliceblue;
+    padding: 0em;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+    -webkit-text-stroke-width: 0.04em;
+    -webkit-text-stroke-color: #000;
+    font-size: 1em;
+    font-weight: bolder;
+}
+
+body {
+    background-image: linear-gradient(180deg, rgb(0, 0, 0), rgb(0, 0, 53));
+    cursor: crosshair;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 600px){
+    
+}
+
+@media screen and (min-width: 601px) and (max-width: 900px){
+    
+}
+
+@media screen and (max-width:900px) {
+    body{
+        max-height: 100vh;
+        width: 120vw;
+    }
+}
+
+@media screen and (min-width: 901px) and (max-width: 1200px){
+
+}

@@ -1,0 +1,28 @@
+#voltar{
+    margin: 1em;
+    background-color: rgb(226, 43, 43);
+    align-self: center;
+    padding: 0.2em;
+    border-radius: 50%;
+}
+
+button a{
+    text-decoration: none;
+}
+
+@media screen and (max-width: 600px){
+}
+
+@media screen and (min-width: 601px) and (max-width: 900px){
+}
+
+@media screen and (max-width: 900px){
+    #voltar{
+        font-size: 0.5em;
+        align-self: center;
+    }   
+}
+
+@media screen and (min-width: 901px) and (max-width: 1200px){
+    
+}

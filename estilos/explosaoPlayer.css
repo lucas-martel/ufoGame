@@ -1,0 +1,51 @@
+.explodiu-player-0{
+    position: absolute;
+    background-image: url(img/explosao.png);
+    background-position: -7px -67px;
+    width: 53px;
+    height: 42px;
+    background-size: 440px;
+}
+
+.explodiu-player-1{
+    position: absolute;
+    background-image: url(img/explosao.png);
+    background-position: -63px -69px;
+    width: 53px;
+    height: 42px;
+    background-size: 440px;
+}
+
+.explodiu-player-2{
+    position: absolute;
+    background-image: url(img/explosao.png);
+    background-position: -115px -69px;
+    width: 53px;
+    height: 42px;
+    background-size: 440px;
+}
+
+.explodiu-player-3{
+    position: absolute;
+    background-image: url(img/explosao.png);
+    background-position: -166px -69px;
+    width: 53px;
+    height: 42px;
+    background-size: 440px;
+}
+
+.explodiu-player-4{
+    position: absolute;
+    background-image: url(img/explosao.png);
+    background-position: -215px -69px;
+    width: 53px;
+    height: 42px;
+    background-size: 440px;
+}
+
+.explodiu-player-5{
+    position: absolute;
+    background-position: -215px -69px;
+    width: 53px;
+    height: 42px;
+}

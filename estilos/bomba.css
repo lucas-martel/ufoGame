@@ -1,0 +1,36 @@
+.bomba{
+    position: absolute;
+    background-image: url(img/assets.png);
+    background-position: -95px -10px;
+    width: 24px;
+    height: 23px;
+    background-size: 120px;
+}
+
+
+@media screen and (max-width: 600px){
+    .bomba{
+        width: 14px;
+        height: 14px;
+        background-size: 73px;
+        background-position: -58px -6px;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 900px){
+    .bomba{
+        width: 21px;
+        height: 21px;
+        background-size: 103px;
+        background-position: -81px -8px;
+    }
+}
+
+@media screen and (min-width: 901px) and (max-width: 1200px){
+    .bomba{
+        background-position: -95px -10px;
+        width: 24px;
+        height: 23px;
+        background-size: 120px;
+    }
+}

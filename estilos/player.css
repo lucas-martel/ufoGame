@@ -1,0 +1,52 @@
+.ufo{
+    background-image: url(img/assets.png);
+    background-position: 0px 0px;
+}
+.ufo-2{
+    background-image: url(img/assets.png);
+    background-position: 0px -45px;
+    
+}
+
+.ufo, .ufo-2{
+    position: absolute;
+    width: 83px;
+    height: 41px;
+    z-index: 2;
+    background-size: 120px;
+}
+
+.ufo-escudo{
+    border-style: solid;
+    border-color: chartreuse;
+    border-radius: 20px;
+    border-width: 5px;
+}
+
+
+@media screen and (max-width: 600px){
+    .ufo, .ufo-2{
+        width: 51px;
+        height: 25px;
+        background-size: 73px;
+    }
+    
+    .ufo-2{
+        background-position: 0px -55px;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 900px){
+    .ufo, .ufo-2{
+        width: 71px;
+        height: 35px;
+        background-size: 103px;
+    }
+    .ufo-2{
+        background-position: 0px -39px;
+    }  
+}
+
+@media screen and (min-width: 901px) and (max-width: 1200px){
+    
+}

@@ -1,0 +1,103 @@
+.terreno {
+    border: 1.5px solid rgb(25, 228, 255);
+    border-radius: 10px;
+    background-color: rgba(12, 1, 23, 0.581);
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    width: 700px;
+    height: 400px;
+}
+
+.tiro {
+    position: absolute;
+    background-image: url(img/explosao.png);
+    background-position: -10px -35px;
+    width: 8px;
+    height: 7px;
+    z-index: 1;
+    background-size: 130px;
+}
+
+.estrela {
+    position: absolute;
+    background-image: url(img/estrelas.png);
+    background-position: -11px -42px;
+    width: 700px;
+    height: 400px;
+    z-index: 0;
+}
+
+.vaca {
+    position: absolute;
+    background-image: url(img/vaca.png);
+    background-position: 0px 0px;
+    width: 30px;
+    height: 28px;
+    z-index: 1;
+    background-size: 30px;
+}
+
+.vida-nave-mae {
+    position: absolute;
+    background-color: red;
+}
+
+
+@media screen and (max-width: 600px){
+    .terreno {
+        border: 1.5px solid rgb(0, 255, 0);
+        width: 430px;
+        height: 245px;
+    }
+
+    .tiro {
+        background-position: -6px -21px;
+        width: 5px;
+        height: 5px;
+        background-size: 80px;
+    }
+
+    .vaca {
+        background-position: 0px 0px;
+        width: 18px;
+        height: 17px;
+        background-size: 18px;
+    }
+
+    .estrela {
+        background-position: -11px -42px;
+        width: 430px;
+        height: 245px;
+        background-size: 430px;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 900px){
+    .terreno {
+        border: 1.5px solid rgb(255, 0, 204);
+        width: 600px;
+        height: 343px;
+    }
+
+    .tiro {
+        background-position: -9px -29px;
+        width: 6px;
+        height: 7px;
+        background-size: 111px;
+    }
+
+    .vaca {
+        background-position: 0px 0px;
+        width: 25px;
+        height: 24px;
+        background-size: 25.7px;
+    }
+
+    .estrela {
+        background-position: -11px -42px;
+        width: 600px;
+        height: 343px;
+        background-size: 600px;
+    }
+}
